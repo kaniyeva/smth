@@ -1,0 +1,60 @@
+import random
+"""count=0
+while True:
+    n=random.randint(0,9)
+    print(n)
+    count=count+1
+    if n==3:
+        break
+print('Count',count)"""
+
+"""for i in range(10,-1,-1):
+    print(i)
+
+print("-------------------")
+for i in range(0,10):
+     if( i%2!=0):
+         print(i)
+print("--------------------")
+while True:
+    n = random.randint(0, 100)
+    print(n)
+    if(n%2==0):
+        break"""
+"""
+
+for i in range(0,5):
+    n = random.randint(0, 10)
+    print(n)
+print("-----------------")
+
+
+n=0
+for i in  range(0,11):
+    n=n+i
+print(n)
+"""
+print("-"*100)
+a="Helllllllllkkllo"
+count=0
+for i in a.lower():
+    print(i)
+    if(i=='l' or i=='L'):
+        count=count+1
+print('L is',count)
+
+print("-"*100)
+
+b=input().lower()
+for i in b:
+    if(i not in 'aeyuio'):
+        continue
+    print(i)
+
+print("-"*100)
+
+a='pineapple'
+b=''
+for i in a:
+    b=i+b
+    print(b)
